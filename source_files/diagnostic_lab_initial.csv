@@ -1,0 +1,151 @@
+test_id,test_date,patient_id,patient_name,patient_gender,patient_age,patient_city,patient_state,doctor_id,doctor_name,doctor_specialization,lab_id,lab_name,lab_city,test_name,test_category,test_charge,discount,insurance_covered_amount,payment_mode,booking_channel,test_status
+TST000001,2025-01-01,P0036,Revathi Agarwal,Female,32,Bengaluru,Karnataka,D0007,Dr. Arvind Reddy,Pathologist,L009,Aster Labs,Kochi,Blood Test,PATHOLOGY,650.00,100.00,0.00,Card,Mobile App,CANCELLED
+TST000002,2025-01-03,P0042,Padma Bhat,Female,34,Kochi,Kerala,D0004,Dr. Meena Nair,Radiologist,L004,Thyrocare,Hyderabad,X-Ray,RADIOLOGY,860.00,40.00,0.00,Cash,Mobile App,COMPLETED
+TST000003,2025-01-05,P0001,Pranav Iyer,Male,19,Bengaluru,Karnataka,D0007,Dr. Arvind Reddy,Pathologist,L002,Apollo Diagnostics,Bengaluru,Blood Test,PATHOLOGY,680.00,140.00,0.00,Card,Mobile App,COMPLETED
+TST000004,2025-01-08,P0032,Keerthi Desai,Female,52,Chennai,Tamil Nadu,D0006,Dr. Priya Menon,Radiologist,L010,Aster Labs,Bengaluru,MRI Scan,RADIOLOGY,6790.00,0.00,0.00,Net Banking,Walk-In,COMPLETED
+TST000005,2025-01-10,P0007,Karthik Menon,Male,32,Hyderabad,Telangana,D0008,Dr. Kavita Joshi,Pathologist,L007,Metropolis,Mumbai,Vitamin D Test,PATHOLOGY,1420.00,210.00,0.00,Cash,Walk-In,COMPLETED
+TST000006,2025-01-12,P0004,Divya Chopra,Female,65,Coimbatore,Tamil Nadu,D0004,Dr. Meena Nair,Radiologist,L004,Thyrocare,Hyderabad,X-Ray,RADIOLOGY,850.00,80.00,0.00,UPI,Mobile App,COMPLETED
+TST000007,2025-01-15,P0016,Sneha Agarwal,Female,39,Chennai,Tamil Nadu,D0008,Dr. Kavita Joshi,Pathologist,L009,Aster Labs,Kochi,Lipid Profile,PATHOLOGY,790.00,120.00,350.00,Insurance,Call Center,CANCELLED
+TST000008,2025-01-17,P0055,Yash Krishnan,Male,80,Mumbai,Maharashtra,D0005,Dr. Vikram Shah,Radiologist,L008,Metropolis,Kochi,MRI Scan,RADIOLOGY,6200.00,620.00,3350.00,Insurance,Mobile App,CANCELLED
+TST000009,2025-01-20,P0017,Vikram Reddy,Male,42,Coimbatore,Tamil Nadu,D0014,Dr. Harish Gowda,Microbiologist,L007,Metropolis,Mumbai,Urine Analysis,MICROBIOLOGY,380.00,60.00,300.00,Insurance,Walk-In,COMPLETED
+TST000146,2025-11-08,P0034,Aishwarya Singh,Female,62,Delhi,Delhi,D0004,Dr. Meena Nair,Radiologist,L005,Dr Lal PathLabs,Delhi,X-Ray,RADIOLOGY,840.00,0.00,0.00,UPI,Walk-In,IN_PROGRESS
+TST000010,2025-01-22,P0013,Rohan Agarwal,Male,69,Jaipur,Rajasthan,D0006,Dr. Priya Menon,Radiologist,L012,MedPlus Diagnostics,Ahmedabad,CT Scan,RADIOLOGY,4350.00,650.00,0.00,Card,Online,COMPLETED
+TST000011,2025-01-24,P0059,Suresh Pillai,Male,28,Jaipur,Rajasthan,D0007,Dr. Arvind Reddy,Pathologist,L009,Aster Labs,Kochi,Lipid Profile,PATHOLOGY,780.00,0.00,0.00,Cash,Online,CANCELLED
+TST000012,2025-01-27,P0026,Manasa Rao,Female,67,Jaipur,Rajasthan,D0009,Dr. Suresh Patel,Pathologist,L010,Aster Labs,Bengaluru,Blood Test,PATHOLOGY,550.00,0.00,0.00,UPI,Mobile App,COMPLETED
+TST000013,2025-01-29,P0060,Harini Sharma,Female,38,Thiruvananthapuram,Kerala,D0004,Dr. Meena Nair,Radiologist,L005,Dr Lal PathLabs,Delhi,CT Scan,RADIOLOGY,4200.00,630.00,0.00,UPI,Mobile App,CANCELLED
+TST000014,2025-02-01,P0060,Harini Sharma,Female,38,Thiruvananthapuram,Kerala,D0009,Dr. Suresh Patel,Pathologist,L010,Aster Labs,Bengaluru,Blood Test,PATHOLOGY,690.00,0.00,0.00,UPI,Mobile App,COMPLETED
+TST000015,2025-02-03,P0023,Naveen Desai,Male,57,Thiruvananthapuram,Kerala,D0008,Dr. Kavita Joshi,Pathologist,L005,Dr Lal PathLabs,Delhi,Lipid Profile,PATHOLOGY,800.00,160.00,0.00,UPI,Mobile App,CANCELLED
+TST000016,2025-02-05,P0052,Isha Agarwal,Female,67,Mumbai,Maharashtra,D0009,Dr. Suresh Patel,Pathologist,L009,Aster Labs,Kochi,Vitamin D Test,PATHOLOGY,1360.00,200.00,0.00,Cash,Call Center,COMPLETED
+TST000017,2025-02-08,P0057,Vikram Desai,Male,71,Mumbai,Maharashtra,D0008,Dr. Kavita Joshi,Pathologist,L005,Dr Lal PathLabs,Delhi,Blood Test,PATHOLOGY,630.00,90.00,0.00,Card,Walk-In,CANCELLED
+TST000018,2025-02-10,P0033,Yash Rao,Male,47,Chennai,Tamil Nadu,D0001,Dr. Ramesh Iyer,Cardiologist,L011,MedPlus Diagnostics,Hyderabad,ECG,CARDIOLOGY,500.00,20.00,0.00,Cash,Mobile App,COMPLETED
+TST000019,2025-02-13,P0017,Vikram Reddy,Male,42,Coimbatore,Tamil Nadu,D0009,Dr. Suresh Patel,Pathologist,L012,MedPlus Diagnostics,Ahmedabad,Blood Test,PATHOLOGY,600.00,0.00,0.00,Cash,Call Center,COMPLETED
+TST000020,2025-02-15,P0010,Lavanya Banerjee,Female,52,Thiruvananthapuram,Kerala,D0003,Dr. Anil Kapoor,Cardiologist,L009,Aster Labs,Kochi,ECG,CARDIOLOGY,470.00,0.00,0.00,Cash,Mobile App,CANCELLED
+TST000021,2025-02-17,P0056,Harini Agarwal,Female,50,Chennai,Tamil Nadu,D0007,Dr. Arvind Reddy,Pathologist,L011,MedPlus Diagnostics,Hyderabad,Blood Test,PATHOLOGY,580.00,0.00,0.00,UPI,Mobile App,CANCELLED
+TST000022,2025-02-20,P0040,Geetha Shetty,Female,47,Delhi,Delhi,D0007,Dr. Arvind Reddy,Pathologist,L003,Thyrocare,Mumbai,Thyroid Test,PATHOLOGY,780.00,0.00,0.00,Card,Call Center,COMPLETED
+TST000023,2025-02-22,P0027,Naveen Reddy,Male,73,Coimbatore,Tamil Nadu,D0008,Dr. Kavita Joshi,Pathologist,L003,Thyrocare,Mumbai,Thyroid Test,PATHOLOGY,770.00,0.00,0.00,UPI,Online,COMPLETED
+TST000144,2025-07-11,P0015,Prakash Singh,Male,27,Mysuru,Karnataka,D0009,Dr. Suresh Patel,Pathologist,L011,MedPlus Diagnostics,Hyderabad,Blood Test,PATHOLOGY,-450.00,0.00,0.00,Cash,Online,COMPLETED
+TST000024,2025-02-25,P0013,Rohan Agarwal,Male,69,Jaipur,Rajasthan,D0008,Dr. Kavita Joshi,Pathologist,L005,Dr Lal PathLabs,Delhi,Thyroid Test,PATHOLOGY,770.00,150.00,0.00,Card,Online,COMPLETED
+TST000025,2025-02-27,P0022,Aishwarya Reddy,Female,53,Kochi,Kerala,D0005,Dr. Vikram Shah,Radiologist,L006,Dr Lal PathLabs,Pune,CT Scan,RADIOLOGY,4450.00,440.00,0.00,UPI,Walk-In,COMPLETED
+TST000026,2025-03-01,P0002,Padma Singh,Female,33,Mysuru,Karnataka,D0007,Dr. Arvind Reddy,Pathologist,L010,Aster Labs,Bengaluru,Blood Test,PATHOLOGY,680.00,30.00,0.00,Cash,Mobile App,COMPLETED
+TST000027,2025-03-04,P0051,Yash Iyer,Male,74,Delhi,Delhi,D0005,Dr. Vikram Shah,Radiologist,L010,Aster Labs,Bengaluru,X-Ray,RADIOLOGY,850.00,0.00,0.00,Net Banking,Online,CANCELLED
+TST000028,2025-03-06,P0035,Ashwin Rao,Male,38,Delhi,Delhi,D0008,Dr. Kavita Joshi,Pathologist,L007,Metropolis,Mumbai,Vitamin D Test,PATHOLOGY,1280.00,190.00,1000.00,Insurance,Mobile App,CANCELLED
+TST000029,2025-03-09,P0047,Pranav Gowda,Male,61,Jaipur,Rajasthan,D0003,Dr. Anil Kapoor,Cardiologist,L007,Metropolis,Mumbai,Lipid Profile,PATHOLOGY,830.00,120.00,0.00,Card,Online,COMPLETED
+TST000030,2025-03-11,P0025,Tarun Reddy,Male,20,Ahmedabad,Gujarat,D0009,Dr. Suresh Patel,Pathologist,L010,Aster Labs,Bengaluru,Vitamin D Test,PATHOLOGY,1370.00,140.00,850.00,Insurance,Online,COMPLETED
+TST000031,2025-03-13,P0038,Ananya Menon,Female,74,Thiruvananthapuram,Kerala,D0011,Dr. Rajesh Khanna,Neurologist,L008,Metropolis,Kochi,EEG,NEUROLOGY,1820.00,0.00,0.00,UPI,Walk-In,CANCELLED
+TST000032,2025-03-16,P0048,Bhavana Kumar,Female,42,Mysuru,Karnataka,D0008,Dr. Kavita Joshi,Pathologist,L009,Aster Labs,Kochi,Blood Test,PATHOLOGY,640.00,60.00,0.00,Card,Walk-In,COMPLETED
+TST000033,2025-03-18,P0044,Jyothi Shetty,Female,32,Pune,Maharashtra,D0004,Dr. Meena Nair,Radiologist,L001,Apollo Diagnostics,Chennai,X-Ray,RADIOLOGY,820.00,80.00,0.00,UPI,Walk-In,COMPLETED
+TST000034,2025-03-21,P0057,Vikram Desai,Male,71,Mumbai,Maharashtra,D0009,Dr. Suresh Patel,Pathologist,L012,MedPlus Diagnostics,Ahmedabad,Vitamin D Test,PATHOLOGY,1390.00,140.00,0.00,Card,Walk-In,COMPLETED
+TST000035,2025-03-23,P0049,Harsha Kumar,Male,51,Warangal,Telangana,D0008,Dr. Kavita Joshi,Pathologist,L004,Thyrocare,Hyderabad,Lipid Profile,PATHOLOGY,800.00,120.00,0.00,UPI,Online,COMPLETED
+TST000036,2025-03-25,P0055,Yash Krishnan,Male,80,Mumbai,Maharashtra,D0008,Dr. Kavita Joshi,Pathologist,L011,MedPlus Diagnostics,Hyderabad,Blood Test,PATHOLOGY,620.00,60.00,0.00,UPI,Call Center,CANCELLED
+TST000037,2025-03-28,P0040,Geetha Shetty,Female,47,Delhi,Delhi,D0009,Dr. Suresh Patel,Pathologist,L008,Metropolis,Kochi,Thyroid Test,PATHOLOGY,790.00,120.00,550.00,Insurance,Online,COMPLETED
+TST000038,2025-03-30,P0041,Suresh Singh,Male,33,Chennai,Tamil Nadu,D0006,Dr. Priya Menon,Radiologist,L004,Thyrocare,Hyderabad,CT Scan,RADIOLOGY,4070.00,0.00,0.00,Net Banking,Online,COMPLETED
+TST000039,2025-04-02,P0058,Lavanya Verma,Female,30,Thiruvananthapuram,Kerala,D0001,Dr. Ramesh Iyer,Cardiologist,L004,Thyrocare,Hyderabad,ECG,CARDIOLOGY,500.00,0.00,0.00,Net Banking,Online,COMPLETED
+TST000040,2025-04-04,P0035,Ashwin Rao,Male,38,Delhi,Delhi,D0001,Dr. Ramesh Iyer,Cardiologist,L007,Metropolis,Mumbai,ECG,CARDIOLOGY,500.00,100.00,0.00,UPI,Walk-In,CANCELLED
+TST000041,2025-04-06,P0049,Harsha Kumar,Male,51,Warangal,Telangana,D0010,Dr. Lakshmi Narayanan,Neurologist,L006,Dr Lal PathLabs,Pune,EEG,NEUROLOGY,1750.00,180.00,1250.00,Insurance,Mobile App,COMPLETED
+TST000141,2025-09-15,P0034,,Female,62,Delhi,Delhi,D0004,Dr. Meena Nair,Radiologist,L010,Aster Labs,Bengaluru,X-Ray,RADIOLOGY,840.00,40.00,0.00,Cash,Mobile App,COMPLETED
+TST000042,2025-04-09,P0052,Isha Agarwal,Female,67,Mumbai,Maharashtra,D0011,Dr. Rajesh Khanna,Neurologist,L004,Thyrocare,Hyderabad,EEG,NEUROLOGY,1740.00,170.00,0.00,Cash,Mobile App,COMPLETED
+TST000043,2025-04-11,P0026,Manasa Rao,Female,67,Jaipur,Rajasthan,D0007,Dr. Arvind Reddy,Pathologist,L010,Aster Labs,Bengaluru,Thyroid Test,PATHOLOGY,720.00,70.00,0.00,UPI,Walk-In,COMPLETED
+TST000044,2025-04-14,P0028,Divya Shetty,Female,47,Mumbai,Maharashtra,D0007,Dr. Arvind Reddy,Pathologist,L001,Apollo Diagnostics,Chennai,Blood Test,PATHOLOGY,580.00,30.00,0.00,Card,Mobile App,COMPLETED
+TST000032,2025-03-16,P0048,Bhavana Kumar,Female,42,Mysuru,Karnataka,D0008,Dr. Kavita Joshi,Pathologist,L009,Aster Labs,Kochi,Blood Test,PATHOLOGY,640.00,60.00,0.00,Card,Walk-In,COMPLETED
+TST000045,2025-04-16,P0025,Tarun Reddy,Male,20,Ahmedabad,Gujarat,D0005,Dr. Vikram Shah,Radiologist,L002,Apollo Diagnostics,Bengaluru,CT Scan,RADIOLOGY,4270.00,640.00,0.00,UPI,Call Center,COMPLETED
+TST000046,2025-04-18,P0042,Padma Bhat,Female,34,Kochi,Kerala,D0007,Dr. Arvind Reddy,Pathologist,L004,Thyrocare,Hyderabad,Blood Test,PATHOLOGY,570.00,0.00,0.00,UPI,Online,COMPLETED
+TST000047,2025-04-21,P0008,Harini Kumar,Female,19,Warangal,Telangana,D0011,Dr. Rajesh Khanna,Neurologist,L012,MedPlus Diagnostics,Ahmedabad,EEG,NEUROLOGY,1740.00,90.00,0.00,Card,Mobile App,COMPLETED
+TST000048,2025-04-23,P0008,Harini Kumar,Female,19,Warangal,Telangana,D0008,Dr. Kavita Joshi,Pathologist,L002,Apollo Diagnostics,Bengaluru,Thyroid Test,PATHOLOGY,730.00,40.00,0.00,UPI,Call Center,COMPLETED
+TST000049,2025-04-25,P0046,Revathi Nair,Female,27,Mysuru,Karnataka,D0004,Dr. Meena Nair,Radiologist,L012,MedPlus Diagnostics,Ahmedabad,MRI Scan,RADIOLOGY,7110.00,1420.00,0.00,UPI,Walk-In,COMPLETED
+TST000050,2025-04-28,P0037,Arjun Das,Male,35,Hyderabad,Telangana,D0009,Dr. Suresh Patel,Pathologist,L007,Metropolis,Mumbai,Thyroid Test,PATHOLOGY,750.00,0.00,0.00,UPI,Mobile App,CANCELLED
+TST000051,2025-04-30,P0053,Pranav Das,Male,36,Mysuru,Karnataka,D0002,Dr. Sunita Rao,Cardiologist,L011,MedPlus Diagnostics,Hyderabad,ECG,CARDIOLOGY,560.00,60.00,0.00,Net Banking,Mobile App,COMPLETED
+TST000052,2025-05-03,P0042,Padma Bhat,Female,34,Kochi,Kerala,D0005,Dr. Vikram Shah,Radiologist,L007,Metropolis,Mumbai,CT Scan,RADIOLOGY,4650.00,460.00,0.00,Card,Call Center,COMPLETED
+TST000053,2025-05-05,P0006,Bhavana Nair,Female,19,Pune,Maharashtra,D0004,Dr. Meena Nair,Radiologist,L008,Metropolis,Kochi,CT Scan,RADIOLOGY,4380.00,660.00,0.00,UPI,Online,CANCELLED
+TST000054,2025-05-07,P0012,Jyothi Singh,Female,69,Ahmedabad,Gujarat,D0002,Dr. Sunita Rao,Cardiologist,L006,Dr Lal PathLabs,Pune,ECG,CARDIOLOGY,480.00,50.00,0.00,Net Banking,Online,COMPLETED
+TST000055,2025-05-10,P0013,Rohan Agarwal,Male,69,Jaipur,Rajasthan,D0008,Dr. Kavita Joshi,Pathologist,L009,Aster Labs,Kochi,Blood Test,PATHOLOGY,650.00,100.00,0.00,UPI,Walk-In,COMPLETED
+TST000056,2025-05-12,P0002,Padma Singh,Female,33,Mysuru,Karnataka,D0008,Dr. Kavita Joshi,Pathologist,L012,MedPlus Diagnostics,Ahmedabad,Blood Test,PATHOLOGY,580.00,90.00,0.00,UPI,Mobile App,COMPLETED
+,2025-11-16,P0022,Aishwarya Reddy,Female,53,Kochi,Kerala,D0008,Dr. Kavita Joshi,Pathologist,L006,Dr Lal PathLabs,Pune,Thyroid Test,PATHOLOGY,750.00,0.00,700.00,Insurance,Online,COMPLETED
+TST000057,2025-05-15,P0028,Divya Shetty,Female,47,Mumbai,Maharashtra,D0014,Dr. Harish Gowda,Microbiologist,L012,MedPlus Diagnostics,Ahmedabad,Urine Analysis,MICROBIOLOGY,350.00,20.00,0.00,Card,Online,COMPLETED
+TST000058,2025-05-17,P0008,Harini Kumar,Female,19,Warangal,Telangana,D0007,Dr. Arvind Reddy,Pathologist,L004,Thyrocare,Hyderabad,Thyroid Test,PATHOLOGY,760.00,40.00,0.00,Net Banking,Call Center,COMPLETED
+TST000059,2025-05-19,P0019,Imran Kumar,Male,34,Pune,Maharashtra,D0014,Dr. Harish Gowda,Microbiologist,L004,Thyrocare,Hyderabad,Urine Analysis,MICROBIOLOGY,350.00,20.00,0.00,Cash,Mobile App,COMPLETED
+TST000060,2025-05-22,P0004,Divya Chopra,Female,65,Coimbatore,Tamil Nadu,D0012,Dr. Fatima Sheikh,Neurologist,L008,Metropolis,Kochi,EEG,NEUROLOGY,1670.00,0.00,0.00,UPI,Mobile App,COMPLETED
+TST000061,2025-05-24,P0012,Jyothi Singh,Female,69,Ahmedabad,Gujarat,D0014,Dr. Harish Gowda,Microbiologist,L002,Apollo Diagnostics,Bengaluru,Urine Analysis,MICROBIOLOGY,390.00,40.00,0.00,UPI,Mobile App,COMPLETED
+TST000062,2025-05-27,P0010,Lavanya Banerjee,Female,52,Thiruvananthapuram,Kerala,D0007,Dr. Arvind Reddy,Pathologist,L004,Thyrocare,Hyderabad,Blood Test,PATHOLOGY,560.00,110.00,0.00,UPI,Mobile App,COMPLETED
+TST000063,2025-05-29,P0050,Nisha Bhat,Female,61,Bengaluru,Karnataka,D0002,Dr. Sunita Rao,Cardiologist,L005,Dr Lal PathLabs,Delhi,ECG,CARDIOLOGY,560.00,60.00,0.00,Card,Mobile App,COMPLETED
+TST000064,2025-05-31,P0048,Bhavana Kumar,Female,42,Mysuru,Karnataka,D0009,Dr. Suresh Patel,Pathologist,L004,Thyrocare,Hyderabad,Blood Test,PATHOLOGY,580.00,0.00,0.00,Card,Online,COMPLETED
+TST000065,2025-06-03,P0001,Pranav Iyer,Male,19,Bengaluru,Karnataka,D0005,Dr. Vikram Shah,Radiologist,L001,Apollo Diagnostics,Chennai,X-Ray,RADIOLOGY,860.00,130.00,0.00,Card,Call Center,COMPLETED
+TST000066,2025-06-05,P0015,Prakash Singh,Male,27,Mysuru,Karnataka,D0014,Dr. Harish Gowda,Microbiologist,L002,Apollo Diagnostics,Bengaluru,Urine Analysis,MICROBIOLOGY,360.00,50.00,0.00,Cash,Online,COMPLETED
+TST000067,2025-06-08,P0004,Divya Chopra,Female,65,Coimbatore,Tamil Nadu,D0009,Dr. Suresh Patel,Pathologist,L012,MedPlus Diagnostics,Ahmedabad,Blood Test,PATHOLOGY,660.00,30.00,0.00,UPI,Mobile App,COMPLETED
+TST000068,2025-06-10,P0026,Manasa Rao,Female,67,Jaipur,Rajasthan,D0014,Dr. Harish Gowda,Microbiologist,L002,Apollo Diagnostics,Bengaluru,Urine Analysis,MICROBIOLOGY,370.00,40.00,0.00,Net Banking,Mobile App,COMPLETED
+TST000069,2025-06-12,P0015,Prakash Singh,Male,27,Mysuru,Karnataka,D0015,Dr. Neha Agarwal,Microbiologist,L005,Dr Lal PathLabs,Delhi,Urine Analysis,MICROBIOLOGY,370.00,70.00,0.00,Net Banking,Mobile App,COMPLETED
+TST000070,2025-06-15,P0059,Suresh Pillai,Male,28,Jaipur,Rajasthan,D0006,Dr. Priya Menon,Radiologist,L008,Metropolis,Kochi,CT Scan,RADIOLOGY,4800.00,480.00,0.00,Card,Mobile App,COMPLETED
+TST000143,2025-02-16,P0059,Suresh Pillai,Male,28,Jaipur,Rajasthan,D0005,Dr. Vikram Shah,Radiologist,L001,Apollo Diagnostics,Chennai,MRI Scan,RADIOLOGY,-1200.00,650.00,0.00,UPI,Online,CANCELLED
+TST000071,2025-06-17,P0055,Yash Krishnan,Male,80,Mumbai,Maharashtra,D0009,Dr. Suresh Patel,Pathologist,L008,Metropolis,Kochi,Blood Test,PATHOLOGY,580.00,60.00,450.00,Insurance,Online,COMPLETED
+TST000072,2025-06-20,P0017,Vikram Reddy,Male,42,Coimbatore,Tamil Nadu,D0006,Dr. Priya Menon,Radiologist,L001,Apollo Diagnostics,Chennai,X-Ray,RADIOLOGY,960.00,100.00,0.00,UPI,Online,COMPLETED
+TST000073,2025-06-22,P0040,Geetha Shetty,Female,47,Delhi,Delhi,D0007,Dr. Arvind Reddy,Pathologist,L004,Thyrocare,Hyderabad,Thyroid Test,PATHOLOGY,680.00,0.00,550.00,Insurance,Call Center,COMPLETED
+TST000074,2025-06-24,P0002,Padma Singh,Female,33,Mysuru,Karnataka,D0015,Dr. Neha Agarwal,Microbiologist,L003,Thyrocare,Mumbai,Urine Analysis,MICROBIOLOGY,340.00,0.00,0.00,UPI,Online,CANCELLED
+TST000075,2025-06-27,P0059,Suresh Pillai,Male,28,Jaipur,Rajasthan,D0009,Dr. Suresh Patel,Pathologist,L003,Thyrocare,Mumbai,Blood Test,PATHOLOGY,610.00,90.00,0.00,Card,Walk-In,COMPLETED
+TST000076,2025-06-29,P0031,Tarun Chopra,Male,22,Delhi,Delhi,D0014,Dr. Harish Gowda,Microbiologist,L009,Aster Labs,Kochi,Urine Analysis,MICROBIOLOGY,330.00,0.00,300.00,Insurance,Walk-In,COMPLETED
+TST000077,2025-07-02,P0005,Ashwin Reddy,Male,55,Mumbai,Maharashtra,D0005,Dr. Vikram Shah,Radiologist,L009,Aster Labs,Kochi,CT Scan,RADIOLOGY,4060.00,0.00,0.00,Card,Online,COMPLETED
+TST000078,2025-07-04,P0043,Yash Hegde,Male,75,Hyderabad,Telangana,D0002,Dr. Sunita Rao,Cardiologist,L009,Aster Labs,Kochi,ECG,CARDIOLOGY,510.00,30.00,0.00,UPI,Mobile App,COMPLETED
+TST000079,2025-07-06,P0021,Ashwin Iyer,Male,80,Warangal,Telangana,D0009,Dr. Suresh Patel,Pathologist,L007,Metropolis,Mumbai,Lipid Profile,PATHOLOGY,810.00,160.00,0.00,UPI,Mobile App,COMPLETED
+TST000080,2025-07-09,P0059,Suresh Pillai,Male,28,Jaipur,Rajasthan,D0009,Dr. Suresh Patel,Pathologist,L011,MedPlus Diagnostics,Hyderabad,Thyroid Test,PATHOLOGY,800.00,80.00,450.00,Insurance,Mobile App,COMPLETED
+TST000081,2025-07-11,P0056,Harini Agarwal,Female,50,Chennai,Tamil Nadu,D0007,Dr. Arvind Reddy,Pathologist,L009,Aster Labs,Kochi,Blood Test,PATHOLOGY,680.00,0.00,0.00,Net Banking,Mobile App,COMPLETED
+TST000082,2025-07-14,P0010,Lavanya Banerjee,Female,52,Thiruvananthapuram,Kerala,D0008,Dr. Kavita Joshi,Pathologist,L010,Aster Labs,Bengaluru,Blood Test,PATHOLOGY,640.00,100.00,0.00,Cash,Mobile App,COMPLETED
+TST000083,2025-07-16,P0035,Ashwin Rao,Male,38,Delhi,Delhi,D0006,Dr. Priya Menon,Radiologist,L012,MedPlus Diagnostics,Ahmedabad,X-Ray,RADIOLOGY,1010.00,100.00,450.00,Insurance,Mobile App,COMPLETED
+TST000084,2025-07-18,P0044,Jyothi Shetty,Female,32,Pune,Maharashtra,D0015,Dr. Neha Agarwal,Microbiologist,L002,Apollo Diagnostics,Bengaluru,Urine Analysis,MICROBIOLOGY,350.00,0.00,0.00,Net Banking,Walk-In,COMPLETED
+TST000085,2025-07-21,P0011,Deepak Rao,Male,46,Delhi,Delhi,D0007,Dr. Arvind Reddy,Pathologist,L006,Dr Lal PathLabs,Pune,Vitamin D Test,PATHOLOGY,1540.00,80.00,0.00,UPI,Mobile App,COMPLETED
+TST000086,2025-07-23,P0027,Naveen Reddy,Male,73,Coimbatore,Tamil Nadu,D0010,Dr. Lakshmi Narayanan,Neurologist,L003,Thyrocare,Mumbai,EEG,NEUROLOGY,1660.00,330.00,0.00,UPI,Walk-In,COMPLETED
+TST000087,2025-07-26,P0038,Ananya Menon,Female,74,Thiruvananthapuram,Kerala,D0009,Dr. Suresh Patel,Pathologist,L005,Dr Lal PathLabs,Delhi,Blood Test,PATHOLOGY,610.00,90.00,0.00,Cash,Walk-In,CANCELLED
+TST000088,2025-07-28,P0044,Jyothi Shetty,Female,32,Pune,Maharashtra,D0002,Dr. Sunita Rao,Cardiologist,L006,Dr Lal PathLabs,Pune,ECG,CARDIOLOGY,570.00,30.00,0.00,UPI,Mobile App,COMPLETED
+TST000142,2025-02-22,P0046,,Female,27,Mysuru,Karnataka,D0008,Dr. Kavita Joshi,Pathologist,L002,Apollo Diagnostics,Bengaluru,Lipid Profile,PATHOLOGY,930.00,50.00,0.00,UPI,Mobile App,COMPLETED
+TST000089,2025-07-30,P0055,Yash Krishnan,Male,80,Mumbai,Maharashtra,D0005,Dr. Vikram Shah,Radiologist,L002,Apollo Diagnostics,Bengaluru,CT Scan,RADIOLOGY,4030.00,400.00,0.00,UPI,Online,COMPLETED
+TST000090,2025-08-02,P0002,Padma Singh,Female,33,Mysuru,Karnataka,D0014,Dr. Harish Gowda,Microbiologist,L001,Apollo Diagnostics,Chennai,Urine Analysis,MICROBIOLOGY,360.00,50.00,0.00,Net Banking,Call Center,CANCELLED
+TST000091,2025-08-04,P0048,Bhavana Kumar,Female,42,Mysuru,Karnataka,D0001,Dr. Ramesh Iyer,Cardiologist,L010,Aster Labs,Bengaluru,ECG,CARDIOLOGY,550.00,0.00,0.00,UPI,Mobile App,COMPLETED
+TST000092,2025-08-07,P0047,Pranav Gowda,Male,61,Jaipur,Rajasthan,D0009,Dr. Suresh Patel,Pathologist,L002,Apollo Diagnostics,Bengaluru,Thyroid Test,PATHOLOGY,790.00,120.00,0.00,Cash,Walk-In,COMPLETED
+TST000093,2025-08-09,P0024,Shruthi Hegde,Female,30,Delhi,Delhi,D0008,Dr. Kavita Joshi,Pathologist,L006,Dr Lal PathLabs,Pune,Thyroid Test,PATHOLOGY,760.00,0.00,0.00,Card,Walk-In,CANCELLED
+TST000094,2025-08-11,P0024,Shruthi Hegde,Female,30,Delhi,Delhi,D0001,Dr. Ramesh Iyer,Cardiologist,L005,Dr Lal PathLabs,Delhi,ECG,CARDIOLOGY,560.00,60.00,350.00,Insurance,Walk-In,COMPLETED
+TST000095,2025-08-14,P0008,Harini Kumar,Female,19,Warangal,Telangana,D0001,Dr. Ramesh Iyer,Cardiologist,L004,Thyrocare,Hyderabad,ECG,CARDIOLOGY,560.00,80.00,0.00,UPI,Mobile App,CANCELLED
+TST000096,2025-08-16,P0036,Revathi Agarwal,Female,32,Bengaluru,Karnataka,D0004,Dr. Meena Nair,Radiologist,L005,Dr Lal PathLabs,Delhi,X-Ray,RADIOLOGY,930.00,90.00,0.00,UPI,Walk-In,COMPLETED
+TST000097,2025-08-18,P0025,Tarun Reddy,Male,20,Ahmedabad,Gujarat,D0001,Dr. Ramesh Iyer,Cardiologist,L011,MedPlus Diagnostics,Hyderabad,Lipid Profile,PATHOLOGY,810.00,0.00,0.00,UPI,Call Center,COMPLETED
+TST000098,2025-08-21,P0040,Geetha Shetty,Female,47,Delhi,Delhi,D0006,Dr. Priya Menon,Radiologist,L008,Metropolis,Kochi,MRI Scan,RADIOLOGY,7330.00,370.00,0.00,UPI,Online,COMPLETED
+TST000099,2025-08-23,P0003,Sanjay Patel,Male,65,Chennai,Tamil Nadu,D0004,Dr. Meena Nair,Radiologist,L002,Apollo Diagnostics,Bengaluru,CT Scan,RADIOLOGY,4030.00,400.00,0.00,Cash,Mobile App,COMPLETED
+TST000100,2025-08-26,P0048,Bhavana Kumar,Female,42,Mysuru,Karnataka,D0009,Dr. Suresh Patel,Pathologist,L012,MedPlus Diagnostics,Ahmedabad,Vitamin D Test,PATHOLOGY,1510.00,150.00,0.00,UPI,Walk-In,COMPLETED
+TST000101,2025-08-28,P0018,Divya Pillai,Female,72,Mumbai,Maharashtra,D0007,Dr. Arvind Reddy,Pathologist,L008,Metropolis,Kochi,Blood Test,PATHOLOGY,610.00,0.00,300.00,Insurance,Call Center,COMPLETED
+TST000102,2025-08-30,P0058,Lavanya Verma,Female,30,Thiruvananthapuram,Kerala,D0013,Dr. Deepa Krishnan,Microbiologist,L007,Metropolis,Mumbai,Urine Analysis,MICROBIOLOGY,340.00,0.00,250.00,Insurance,Online,COMPLETED
+TST000103,2025-09-02,P0041,Suresh Singh,Male,33,Chennai,Tamil Nadu,D0010,Dr. Lakshmi Narayanan,Neurologist,L006,Dr Lal PathLabs,Pune,EEG,NEUROLOGY,1730.00,0.00,0.00,Net Banking,Online,COMPLETED
+TST000104,2025-09-04,P0036,Revathi Agarwal,Female,32,Bengaluru,Karnataka,D0004,Dr. Meena Nair,Radiologist,L006,Dr Lal PathLabs,Pune,MRI Scan,RADIOLOGY,7110.00,1420.00,2850.00,Insurance,Online,CANCELLED
+TST000145,2025-03-13,P0049,Harsha Kumar,Male,51,Warangal,Telangana,D0009,Dr. Suresh Patel,Pathologist,L001,Apollo Diagnostics,Chennai,Thyroid Test,PATHOLOGY,790.00,0.00,0.00,Card,Walk-In,PENDING
+TST000105,2025-09-07,P0009,Ashwin Menon,Male,63,Kochi,Kerala,D0001,Dr. Ramesh Iyer,Cardiologist,L011,MedPlus Diagnostics,Hyderabad,ECG,CARDIOLOGY,560.00,0.00,0.00,Cash,Walk-In,COMPLETED
+TST000106,2025-09-09,P0021,Ashwin Iyer,Male,80,Warangal,Telangana,D0007,Dr. Arvind Reddy,Pathologist,L003,Thyrocare,Mumbai,Blood Test,PATHOLOGY,650.00,60.00,0.00,Cash,Online,COMPLETED
+TST000097,2025-08-18,P0025,Tarun Reddy,Male,20,Ahmedabad,Gujarat,D0001,Dr. Ramesh Iyer,Cardiologist,L011,MedPlus Diagnostics,Hyderabad,Lipid Profile,PATHOLOGY,810.00,0.00,0.00,UPI,Call Center,COMPLETED
+TST000107,2025-09-11,P0024,Shruthi Hegde,Female,30,Delhi,Delhi,D0002,Dr. Sunita Rao,Cardiologist,L009,Aster Labs,Kochi,ECG,CARDIOLOGY,480.00,50.00,0.00,Cash,Walk-In,CANCELLED
+TST000108,2025-09-14,P0034,Aishwarya Singh,Female,62,Delhi,Delhi,D0004,Dr. Meena Nair,Radiologist,L008,Metropolis,Kochi,CT Scan,RADIOLOGY,4670.00,470.00,0.00,UPI,Mobile App,CANCELLED
+TST000109,2025-09-16,P0005,Ashwin Reddy,Male,55,Mumbai,Maharashtra,D0003,Dr. Anil Kapoor,Cardiologist,L003,Thyrocare,Mumbai,Lipid Profile,PATHOLOGY,780.00,40.00,0.00,UPI,Mobile App,COMPLETED
+TST000110,2025-09-19,P0025,Tarun Reddy,Male,20,Ahmedabad,Gujarat,D0014,Dr. Harish Gowda,Microbiologist,L009,Aster Labs,Kochi,Urine Analysis,MICROBIOLOGY,370.00,0.00,0.00,Net Banking,Online,COMPLETED
+TST000111,2025-09-21,P0057,Vikram Desai,Male,71,Mumbai,Maharashtra,D0008,Dr. Kavita Joshi,Pathologist,L008,Metropolis,Kochi,Thyroid Test,PATHOLOGY,790.00,80.00,0.00,Card,Mobile App,COMPLETED
+TST000112,2025-09-23,P0007,Karthik Menon,Male,32,Hyderabad,Telangana,D0006,Dr. Priya Menon,Radiologist,L005,Dr Lal PathLabs,Delhi,X-Ray,RADIOLOGY,890.00,0.00,0.00,UPI,Mobile App,BOOKED
+TST000113,2025-09-26,P0006,Bhavana Nair,Female,19,Pune,Maharashtra,D0009,Dr. Suresh Patel,Pathologist,L012,MedPlus Diagnostics,Ahmedabad,Blood Test,PATHOLOGY,600.00,0.00,0.00,UPI,Mobile App,COMPLETED
+TST000114,2025-09-28,P0022,Aishwarya Reddy,Female,53,Kochi,Kerala,D0008,Dr. Kavita Joshi,Pathologist,L011,MedPlus Diagnostics,Hyderabad,Vitamin D Test,PATHOLOGY,1590.00,160.00,700.00,Insurance,Call Center,COMPLETED
+TST000115,2025-10-01,P0023,Naveen Desai,Male,57,Thiruvananthapuram,Kerala,D0007,Dr. Arvind Reddy,Pathologist,L011,MedPlus Diagnostics,Hyderabad,Blood Test,PATHOLOGY,610.00,120.00,0.00,Cash,Walk-In,BOOKED
+TST000116,2025-10-03,P0049,Harsha Kumar,Male,51,Warangal,Telangana,D0005,Dr. Vikram Shah,Radiologist,L009,Aster Labs,Kochi,CT Scan,RADIOLOGY,4800.00,960.00,0.00,UPI,Walk-In,COMPLETED
+TST000117,2025-10-05,P0039,Tarun Das,Male,59,Coimbatore,Tamil Nadu,D0013,Dr. Deepa Krishnan,Microbiologist,L003,Thyrocare,Mumbai,Urine Analysis,MICROBIOLOGY,340.00,70.00,0.00,Card,Mobile App,BOOKED
+TST000118,2025-10-08,P0056,Harini Agarwal,Female,50,Chennai,Tamil Nadu,D0007,Dr. Arvind Reddy,Pathologist,L003,Thyrocare,Mumbai,Blood Test,PATHOLOGY,650.00,0.00,0.00,Cash,Mobile App,BOOKED
+TST000119,2025-10-10,P0030,Shruthi Menon,Female,35,Delhi,Delhi,D0005,Dr. Vikram Shah,Radiologist,L012,MedPlus Diagnostics,Ahmedabad,X-Ray,RADIOLOGY,880.00,90.00,0.00,UPI,Call Center,BOOKED
+TST000120,2025-10-13,P0049,Harsha Kumar,Male,51,Warangal,Telangana,D0008,Dr. Kavita Joshi,Pathologist,L008,Metropolis,Kochi,Vitamin D Test,PATHOLOGY,1490.00,150.00,0.00,UPI,Mobile App,BOOKED
+TST000121,2025-10-15,P0033,Yash Rao,Male,47,Chennai,Tamil Nadu,D0007,Dr. Arvind Reddy,Pathologist,L005,Dr Lal PathLabs,Delhi,Blood Test,PATHOLOGY,640.00,60.00,0.00,UPI,Walk-In,BOOKED
+,2025-08-18,P0030,Shruthi Menon,Female,35,Delhi,Delhi,D0002,Dr. Sunita Rao,Cardiologist,L004,Thyrocare,Hyderabad,ECG,CARDIOLOGY,500.00,50.00,350.00,Insurance,Walk-In,COMPLETED
+TST000122,2025-10-17,P0026,Manasa Rao,Female,67,Jaipur,Rajasthan,D0013,Dr. Deepa Krishnan,Microbiologist,L004,Thyrocare,Hyderabad,Urine Analysis,MICROBIOLOGY,340.00,0.00,0.00,Net Banking,Walk-In,BOOKED
+TST000123,2025-10-20,P0008,Harini Kumar,Female,19,Warangal,Telangana,D0007,Dr. Arvind Reddy,Pathologist,L003,Thyrocare,Mumbai,Blood Test,PATHOLOGY,600.00,90.00,0.00,Card,Mobile App,COMPLETED
+TST000124,2025-10-22,P0023,Naveen Desai,Male,57,Thiruvananthapuram,Kerala,D0008,Dr. Kavita Joshi,Pathologist,L001,Apollo Diagnostics,Chennai,Blood Test,PATHOLOGY,610.00,0.00,550.00,Insurance,Mobile App,COMPLETED
+TST000125,2025-10-25,P0041,Suresh Singh,Male,33,Chennai,Tamil Nadu,D0005,Dr. Vikram Shah,Radiologist,L001,Apollo Diagnostics,Chennai,X-Ray,RADIOLOGY,1030.00,0.00,950.00,Insurance,Mobile App,COMPLETED
+TST000126,2025-10-27,P0024,Shruthi Hegde,Female,30,Delhi,Delhi,D0007,Dr. Arvind Reddy,Pathologist,L007,Metropolis,Mumbai,Blood Test,PATHOLOGY,630.00,60.00,0.00,Cash,Call Center,COMPLETED
+TST000127,2025-10-29,P0015,Prakash Singh,Male,27,Mysuru,Karnataka,D0004,Dr. Meena Nair,Radiologist,L009,Aster Labs,Kochi,X-Ray,RADIOLOGY,950.00,100.00,0.00,UPI,Call Center,BOOKED
+TST000128,2025-11-01,P0047,Pranav Gowda,Male,61,Jaipur,Rajasthan,D0013,Dr. Deepa Krishnan,Microbiologist,L002,Apollo Diagnostics,Bengaluru,Urine Analysis,MICROBIOLOGY,330.00,0.00,0.00,Card,Online,COMPLETED
+TST000129,2025-11-03,P0005,Ashwin Reddy,Male,55,Mumbai,Maharashtra,D0008,Dr. Kavita Joshi,Pathologist,L010,Aster Labs,Bengaluru,Blood Test,PATHOLOGY,650.00,60.00,0.00,UPI,Call Center,COMPLETED
+TST000130,2025-11-06,P0040,Geetha Shetty,Female,47,Delhi,Delhi,D0004,Dr. Meena Nair,Radiologist,L008,Metropolis,Kochi,X-Ray,RADIOLOGY,830.00,80.00,0.00,UPI,Walk-In,COMPLETED
+TST000131,2025-11-08,P0023,Naveen Desai,Male,57,Thiruvananthapuram,Kerala,D0002,Dr. Sunita Rao,Cardiologist,L008,Metropolis,Kochi,ECG,CARDIOLOGY,450.00,20.00,200.00,Insurance,Mobile App,CANCELLED
+TST000132,2025-11-10,P0006,Bhavana Nair,Female,19,Pune,Maharashtra,D0008,Dr. Kavita Joshi,Pathologist,L010,Aster Labs,Bengaluru,Vitamin D Test,PATHOLOGY,1450.00,290.00,0.00,Net Banking,Online,CANCELLED
+TST000133,2025-11-13,P0037,Arjun Das,Male,35,Hyderabad,Telangana,D0009,Dr. Suresh Patel,Pathologist,L008,Metropolis,Kochi,Vitamin D Test,PATHOLOGY,1440.00,0.00,0.00,UPI,Walk-In,COMPLETED
+TST000134,2025-11-15,P0046,Revathi Nair,Female,27,Mysuru,Karnataka,D0007,Dr. Arvind Reddy,Pathologist,L004,Thyrocare,Hyderabad,Blood Test,PATHOLOGY,650.00,60.00,0.00,UPI,Mobile App,BOOKED
+TST000135,2025-11-18,P0059,Suresh Pillai,Male,28,Jaipur,Rajasthan,D0005,Dr. Vikram Shah,Radiologist,L011,MedPlus Diagnostics,Hyderabad,CT Scan,RADIOLOGY,4410.00,880.00,0.00,UPI,Mobile App,BOOKED
+TST000136,2025-11-20,P0036,Revathi Agarwal,Female,32,Bengaluru,Karnataka,D0008,Dr. Kavita Joshi,Pathologist,L012,MedPlus Diagnostics,Ahmedabad,Vitamin D Test,PATHOLOGY,1560.00,160.00,1000.00,Insurance,Online,COMPLETED
+TST000137,2025-11-22,P0059,Suresh Pillai,Male,28,Jaipur,Rajasthan,D0004,Dr. Meena Nair,Radiologist,L010,Aster Labs,Bengaluru,X-Ray,RADIOLOGY,970.00,0.00,0.00,Card,Mobile App,COMPLETED
+TST000138,2025-11-25,P0053,Pranav Das,Male,36,Mysuru,Karnataka,D0009,Dr. Suresh Patel,Pathologist,L011,MedPlus Diagnostics,Hyderabad,Blood Test,PATHOLOGY,600.00,30.00,0.00,Cash,Mobile App,CANCELLED
+TST000139,2025-11-27,P0022,Aishwarya Reddy,Female,53,Kochi,Kerala,D0013,Dr. Deepa Krishnan,Microbiologist,L004,Thyrocare,Hyderabad,Urine Analysis,MICROBIOLOGY,400.00,0.00,0.00,Cash,Walk-In,BOOKED
+TST000140,2025-11-30,P0050,Nisha Bhat,Female,61,Bengaluru,Karnataka,D0003,Dr. Anil Kapoor,Cardiologist,L006,Dr Lal PathLabs,Pune,ECG,CARDIOLOGY,560.00,60.00,0.00,Cash,Mobile App,BOOKED
